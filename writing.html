@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Writing and notes — Arjun Garg">
+    <link rel="icon" type="image/jpeg" href="favicon.jpg">
+    <title>Writing — Arjun Garg</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Markdown parser -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    
+    <!-- Syntax highlighting (optional) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="post">
+    <!-- Navigation -->
+    <nav class="site-nav"></nav>
+
+    <!-- Page Header (shown when listing posts) -->
+    <header class="page-header">
+        <div class="container">
+            <h1>Writing</h1>
+            <p class="page-subtitle">Thinking out loud about systems, databases, and the questions I ask while learning.</p>
+        </div>
+    </header>
+
+    <!-- Posts List -->
+    <section class="section">
+        <div class="container">
+            <!-- Back link (shown only on single post) -->
+            <a href="writing.html" class="back-link" style="display: none;">← Back to writing</a>
+            
+            <!-- Post metadata (shown on single post) -->
+            <h1 class="post-title" style="display: none;"></h1>
+            <time class="post-date" style="display: none;"></time>
+            
+            <!-- Post content (rendered markdown) -->
+            <article class="post-content prose" style="display: none;"></article>
+            
+            <!-- Posts list (shown when listing) -->
+            <div class="posts-list"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer"></footer>
+
+    <!-- Scripts -->
+    <script src="config.js"></script>
+    <script src="main.js"></script>
+    <script>
+        // Show back link only on single post view
+        const params = new URLSearchParams(window.location.search);
+        if (params.get('post')) {
+            document.querySelector('.back-link').style.display = 'block';
+            document.querySelector('.page-header').style.display = 'none';
+        }
+    </script>
+</body>
+</html>
+

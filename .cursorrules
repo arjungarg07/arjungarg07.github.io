@@ -1,0 +1,158 @@
+# Arjun Garg - Personal Website Context
+
+## Who I Am
+
+**Arjun Garg** — 24 years old, engineering graduate (2023) from India.
+
+**Current**: Founding Engineer at Proshort — building agent-first data infrastructure, multi-agent extraction pipelines, hybrid retrieval systems. Processing 150K sales calls monthly.
+
+**Previous**: Data Engineer at ShareChat — India's largest regional social platform, 40M DAU, 15 languages. Built the "Golden Dataset" (unified fact table), data observability pipelines, feature sanity checks.
+
+**Interests**: Distributed systems, database internals, systems engineering, the intersection of databases and AI/LLMs.
+
+**Applying to**: MS in CS at top US universities (UCLA, CMU, UCB, UIUC) — but don't mention this explicitly on the site. The site should appeal to professors/admission committees without being explicit about applications.
+
+---
+
+## My Philosophy
+
+**"2x knowledge for x/2 time"** — To live with better freedom, have twice the knowledge for the work you're executing. This lets you complete tasks in half the time and reclaim your freedom.
+
+**Currently reading** to build this depth:
+- Designing Data-Intensive Applications (Martin Kleppmann)
+- Database Internals (Alex Petrov)
+- CMU 15-445/645 course (Andy Pavlo)
+
+**On learning**: Reading is easy; it's the tech jargon that creates fear. As a newbie, I ask a lot of questions — often because concepts build on assumed knowledge. I want to document these questions and learnings to help others in the same position.
+
+**On expression**: Coming from a middle-class Indian background, I've noticed we often replace genuine understanding with textbook definitions to chase grades. I'm working to change this — to express ideas in my own words, not regurgitated definitions.
+
+---
+
+## Writing Goals
+
+**Success metrics**:
+1. Write like I'm talking to a person, not lecturing
+2. Spark curiosity in readers
+3. Quality content that hijacks attention like Instagram reels do — but for learning
+
+**Tone**: Conversational, curious, thinking out loud. Not pretentious, not academic-speak. A scholar who's cool, not a nerd.
+
+**Content**: Questions I ask while reading, mental models, aha moments, systems I build and why.
+
+---
+
+## Identity vs. Work
+
+**Key principle**: My identity is separate from my professional affiliations.
+
+- The landing page should be about **my interests, curiosity, and vision** — not what company I work for
+- Companies (Proshort, ShareChat) are *where I apply my interests*, not *who I am*
+- Work details belong on the Work page, not the landing page
+- Mention companies casually if at all: "Right now that happens at Proshort" — not "I'm a Founding Engineer at Proshort building..."
+
+**Why this matters**: I have my own direction irrespective of where I work. The site should reflect someone with independent intellectual interests who happens to work at places, not someone defined by their employer.
+
+---
+
+## Design Philosophy
+
+**Aesthetic**: Academic/Paper — like someone who reads papers and builds systems, not someone who designs landing pages.
+
+**Current design choices**:
+- Serif typography (Source Serif 4) — scholarly, timeless
+- Warm colors (#FFFEF8 background, #B45309 amber accent) — paper-like
+- Narrow content width (600px) — like a book
+- Minimal decoration — content over chrome
+- No flashy animations — too playful for the vibe
+
+**What to avoid**:
+- "Frontend engineer" energy (gradients, cards, animations)
+- Generic AI slop (Inter font, purple gradients)
+- Explicit grad school applicant framing
+- Pretentious academic language
+
+**What to convey**:
+- Deep technical thinking
+- Someone who builds and ships
+- Cool to be a scholar/developer — depth with personality
+- Has more to life than just tech (subtle, not explicit)
+
+---
+
+## Technical Decisions
+
+**Stack**: Pure HTML/CSS/JS — no build step, no frameworks
+**Hosting**: GitHub Pages
+**Architecture**: 
+- Multi-page (index, work, writing)
+- Single config file (`config.js`) for all personal data
+- Markdown-based writing system (drop `.md` files in `writing/`, add to `posts.json`)
+
+**Why these choices**:
+- Ship fast, iterate fast
+- No dependency hell
+- Easy to maintain long-term
+- Reflects systems mindset: minimal, intentional, no bloat
+
+---
+
+## File Structure
+
+```
+blog/
+├── index.html          # Landing page
+├── work.html           # Experience page
+├── writing.html        # Blog with markdown support
+├── style.css           # All styling
+├── config.js           # ← All personal data lives here
+├── main.js             # Shared functionality
+├── writing/
+│   ├── posts.json      # Post manifest
+│   └── *.md            # Markdown posts
+└── .cursorrules        # This file
+```
+
+---
+
+## When Building for Me
+
+1. **Don't over-engineer** — Simple, functional, ships fast
+2. **Academic aesthetic** — Serif, warm, paper-like, content-first
+3. **Systems engineer vibe** — Not frontend, not designer
+4. **Config-driven** — Changes should be easy, ideally in one file
+5. **No explicit grad school mentions** — Professional presence that appeals to academics without begging
+6. **Conversational tone** — In writing and copy, talk like a person
+7. **Mobile-first** — Must work well on phones
+8. **Extensible** — Easy to add posts, projects, sections later
+
+---
+
+## Voice Examples
+
+**Good** (how I want to sound):
+> "I think about how AI systems consume data — and how data systems can become smarter."
+
+> "The goal isn't to be comprehensive. It's to be clear."
+
+> "I'm not an expert pretending to have all the answers. I'm someone working through ideas."
+
+**Bad** (avoid this):
+> "I am passionate about leveraging cutting-edge technologies to drive innovation."
+
+> "My research interests lie at the intersection of..."
+
+> "I am seeking opportunities to contribute to..."
+
+---
+
+## Contact & Links
+
+- GitHub: https://github.com/arjungarg (update in config.js)
+- LinkedIn: https://linkedin.com/in/arjungarg (update in config.js)
+- Email: (update in config.js)
+
+---
+
+*Last updated: January 2026*
+

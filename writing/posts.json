@@ -1,0 +1,17 @@
+[
+    {
+        "slug": "example-engaging-post",
+        "title": "The Art of Asking Good Questions",
+        "date": "2026-01-05",
+        "description": "How questioning everything changed how I learn systems.",
+        "published": true
+    },
+    {
+        "slug": "hello-world",
+        "title": "Hello, World",
+        "date": "2026-01-04",
+        "description": "Why I'm writing, and what to expect.",
+        "published": true
+    }
+]
+
