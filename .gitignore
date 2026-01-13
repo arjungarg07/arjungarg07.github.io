@@ -1,0 +1,12 @@
+# Cursor IDE rules (contains personal context, not for public repo)
+.cursorrules
+
+# macOS
+.DS_Store
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
